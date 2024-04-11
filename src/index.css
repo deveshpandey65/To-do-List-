@@ -1,0 +1,74 @@
+.screen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+form{
+    margin:0px;
+    padding: 0px;
+}
+.outertodo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  margin-top: 40px;
+}
+.innertodo{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+}
+.innertodo input{
+  height: 40px ;
+  width: 80%;
+  margin-right: 10px;
+}
+.innertodo button {
+  height: 45px;
+  width: 20%;
+}
+.tasks{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+  color: white;
+
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+li{
+    margin: 0px;
+      padding: 0px;
+      position: relative;
+      display: flex;
+      align-items: center;
+  
+}
+.tasks ul li{
+      background-color: black;
+      margin-top: 10px;
+      height: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 40px;
+      align-content: center;
+      font-size: 30px;
+
+}
+.tasks ul li span{
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
+
+}
